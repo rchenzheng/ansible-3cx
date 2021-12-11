@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: 3cx
+  author: rchenzheng
+  description: 3CX PBX for Debian
+
+  license: GPL
+
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+    - buster
+
+  galaxy_tags:
+  - 3cx
+  - pbx
+  - voip
+
+dependencies: []
