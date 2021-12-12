@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: 3cx_pbx
+  role_name: pbx_3cx
   author: rchenzheng
   description: 3CX PBX for Debian
 

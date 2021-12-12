@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: 'rchenzheng.3cx_pbx'
+    working-directory: 'rchenzheng.pbx_3cx'
 
 jobs:
   lint:
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'rchenzheng.3cx_pbx'
+          path: 'rchenzheng.pbx_3cx'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
@@ -48,7 +48,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          path: 'rchenzheng.3cx_pbx'
+          path: 'rchenzheng.pbx_3cx'
 
       - name: Install test dependencies.
         run: pip3 install ansible molecule[docker] docker
