@@ -4,4 +4,4 @@
   become: true
 
   roles:
-    - role: rchenzheng.3cx
+    - role: rchenzheng.3cx_pbx

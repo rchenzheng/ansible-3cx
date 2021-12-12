@@ -13,7 +13,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - rchenzheng.3cx
+         - rchenzheng.3cx_pbx
 
 3CX Setup and Configuration
 ----------------
