@@ -5,3 +5,4 @@
 
   roles:
     - role: rchenzheng.pbx_3cx
+      CI_TEST: true
